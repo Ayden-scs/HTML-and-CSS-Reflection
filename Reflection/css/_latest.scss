@@ -1,0 +1,203 @@
+//====================
+// Latest title
+//====================
+
+.latest-title-margin {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px 0 15px;
+    width: 1200px;
+    height: 104px;
+}
+
+.latest-title-text {
+    padding: 40px 0 40px 0;
+    display: block;
+    width: 70px;
+    height: 104px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 5px solid #000;
+}
+
+.latest-content-container {
+    height: auto;
+}
+.latest-content-container {
+    background-image: linear-gradient(#eee 0%, #fff 80%);
+}
+
+.latest-content-margin {
+    padding: 50px 0 50px 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 684px;
+}
+
+.latest-content {
+    height: 584px;
+    width: 400px;
+    padding: 0 15px 0 15px;
+}
+
+.latest-img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.latest-img-pic {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+.latest-img-pic:hover {
+    transition: 300ms;
+    scale: 1.1;
+    opacity: 0.7;
+}
+
+.latest-read-more-header {
+    display: block;
+    width: 100%;
+    height: 48px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#career-read-more-header {
+    color: $web-design;
+}
+
+#notable-read-more-header {
+    color: $support-button;
+}
+
+#case-study-read-more-header {
+    color: $marketing;
+}
+
+.latest-p-text {
+    font-weight: 400;
+    font-size: 13px;
+    color: #666;
+    width: 100%;
+    height: 66px;
+    margin-bottom: 20px;
+}
+
+.latest-read-more-button {
+    text-transform: uppercase;
+    width: 128px;
+    height: 47px;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#career-read-more-button {
+    background-color: $web-design;
+}
+
+#career-read-more-button:hover {
+    background-color: $web-design-hover;
+}
+
+#notable-read-more-button {
+    background-color: $support-button;
+}
+
+#notable-read-more-button:hover {
+    background-color: $support-button-hover;
+}
+
+#case-study-read-more-button {
+    background-color: $marketing;
+}
+
+#case-study-read-more-button:hover {
+    background-color: $marketing-hover;
+}
+
+.latest-read-more {
+    width: 100%;
+    height: 370px;
+    padding: 30px 30px 30px 30px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-top: 0px;
+    border-radius: 3px;
+}
+
+.latest-content-footer {
+    width: 100%;
+    height: 78px;
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    padding-top: 30px;
+}
+
+.latest-footer-img {
+    border-radius: 50%;
+    display: block;
+}
+
+.latest-footer-text {
+    width: 261px;
+    height: 47px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.latest-footer-posted-text {
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0px;
+    display: block;
+}
+
+.latest-footer-date-text {
+    margin: 0px;
+    display: block;
+    font-size: 14px;
+    color: #666;
+}
+
+//max 1260px
+
+#three-cx-read-more-button {
+    background-color: $security;
+}
+
+#three-cx-read-more-button:hover {
+    background-color: $security-hover;
+}
+
+#three-cx-read-more-header {
+    color: $security;
+}
+
+#now-hiring-read-more-button {
+    background-color: $marketing;
+}
+
+#now-hiring-read-more-button:hover {
+    background-color: $marketing-hover;
+}
+
+#now-hiring-read-more-header {
+    color: $marketing;
+}

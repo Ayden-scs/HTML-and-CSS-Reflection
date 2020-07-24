@@ -1,0 +1,57 @@
+//====================
+// Main page
+//====================
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    height: 100%;
+    font-size: 1rem;
+}
+
+.page-overflow {
+    overflow: auto;
+    height: 100%;
+}
+
+.page-overflow-hidden {
+    overflow: hidden;
+}
+
+.page-content-container {
+    height: 912px;
+}
+
+.header-margin-padding {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 1200px;
+}
+
+.header-content {
+    display: flex;
+    line-height: 46px;
+    font-size: 1.125rem;
+}
+
+.text-deco-none {
+    text-decoration: none;
+}
+
+.page-content {
+    width: 100%;
+}

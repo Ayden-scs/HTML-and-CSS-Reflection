@@ -1,0 +1,62 @@
+//====================
+// About Us
+//====================
+
+.netmatters-background {
+    height: 554px;
+    background: $nav-background;
+    background-image: url(../images/branded.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right;
+}
+
+.page-about-us-margin {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    height: 554px;
+    padding: 50px 15px 50px 15px;
+}
+
+.page-about-us {
+    height: 100%;
+}
+
+.about-us-title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff;
+}
+
+.about-us-text {
+    margin-bottom: 25px;
+    max-width: 570px;
+    color: #fff;
+}
+
+.about-us-button {
+    height: 47px;
+    width: 171px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-button:hover {
+    background-color: #ddd;
+}
+
+.about-us-icon {
+    margin-left: 10px;
+    color: #000;
+}

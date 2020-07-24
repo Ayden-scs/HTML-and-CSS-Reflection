@@ -1,0 +1,363 @@
+//====================
+// Center of page 
+//====================
+
+.page-center-container {
+    // height: 2267px;
+    height: auto;
+}
+
+.page-center-margin {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 15px 50px 15px;
+    height: auto;
+    width: 1200px; 
+}
+
+.page-center-content {  
+    height: 100%; 
+}
+
+.center-read-more-top {
+    width: 400px;
+    height: 343px;
+    padding: 0 15px 0 15px;
+    text-align: center;
+}
+
+.center-read-more-bottom {
+    width: 300px;
+    height: 343px;
+    padding: 0 15px 0 15px;
+    text-align: center;
+}
+
+.center-read-more-title {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.center-read-more-text {
+    font-size: 13px;
+    height: 84px;
+}
+
+.center-read-more-button {
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 5px 15px 5px 15px;
+    width: 128px;
+    height: 47px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+
+.center-icon-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//bespoke software
+#software-read-more-container {
+    padding-left: 0px;
+    width: 385px;
+}
+
+#center-software-button {
+    background-color: $software;
+}
+
+#software-center-icon-background {
+    border-radius: 50%;
+    background-color: $software;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+}
+
+#grid-icon {
+    color: #fff;
+    display: inline-block;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.software-read-more:hover {
+    background-color: $software;
+    color: #fff;
+    #software-center-icon-background {
+        background-color: #fff;
+    }
+    #grid-icon {
+        color: $software;
+    }
+    #center-software-button {
+        background-color: #fff;
+        color: $software;
+    }
+}
+
+//IT Support
+#center-it-support-button {
+    background-color: $support-button;
+}
+
+#it-support-center-icon-background {
+    border-radius: 50%;
+    background-color: $support-button;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+}
+
+#it-support-icon {
+    color: #fff;
+    display: inline-block;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.it-read-more:hover {
+    background-color: $support-button;
+    color: #fff;
+    #it-support-center-icon-background {
+        background-color: #fff;
+    }
+    #it-support-icon {
+        color: $support-button;
+    }
+    #center-it-support-button {
+        background-color: #fff;
+        color: $support-button;
+    }
+}
+
+//marketing
+#marketing-read-more-container {
+    padding-right: 0px;
+    width: 385px;
+}
+
+#signal-icon {
+    color: #fff;
+    display: inline-block;
+    margin: 0px;
+    font-size: 18px;
+}
+
+#marketing-center-icon-background {
+    border-radius: 50%;
+    background-color: $marketing;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+}
+
+#center-marketing-button {
+    background-color: $marketing;
+}
+
+.marketing-read-more:hover {
+    background-color: $marketing;
+    color: #fff;
+    #marketing-center-icon-background {
+        background-color: #fff;
+    }
+    #signal-icon {
+        color: $marketing;
+    }
+    #center-marketing-button {
+        background-color: #fff;
+        color: $marketing;
+    }
+}
+
+//telecom
+#telecom-read-more-container {
+    padding-left: 0px;
+    width: 285px;
+}
+
+#phone-icon {
+    color: #fff;
+    display: inline-block;
+    margin: 0px;
+    font-size: 18px;
+}
+
+#telecom-center-icon-background {
+    border-radius: 50%;
+    background-color: $telecom;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+}
+
+#center-telecom-button {
+    background-color: $telecom;
+}
+
+.telecom-read-more:hover {
+    background-color: $telecom;
+    color: #fff;
+    #telecom-center-icon-background {
+        background-color: #fff;
+    }
+    #phone-icon {
+        color: $telecom;
+    }
+    #center-telecom-button {
+        background-color: #fff;
+        color: $telecom;
+    }
+}
+
+//web design
+#code-icon {
+    color: #fff;
+    display: inline-block;
+    margin: 0px;
+    font-size: 18px;
+}
+
+#web-design-center-icon-background {
+    border-radius: 50%;
+    background-color: $web-design;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+}
+
+#center-web-design-button {
+    background-color: $web-design;
+}
+
+.web-design-read-more:hover {
+    background-color: $web-design;
+    color: #fff;
+    #web-design-center-icon-background {
+        background-color: #fff;
+    }
+    #code-icon {
+        color: $web-design;
+    }
+    #center-web-design-button {
+        background-color: #fff;
+        color: $web-design;
+    }
+}
+
+//security
+#shield-icon {
+    color: #fff;
+    display: inline-block;
+    margin: 0px;
+    font-size: 18px;
+}
+
+#security-center-icon-background {
+    border-radius: 50%;
+    background-color: $security;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+}
+
+#center-security-button {
+    background-color: $security;
+}
+
+.security-read-more:hover {
+    background-color: $security;
+    color: #fff;
+    #security-center-icon-background {
+        background-color: #fff;
+    }
+    #shield-icon {
+        color: $security;
+    }
+    #center-security-button {
+        background-color: #fff;
+        color: $security;
+    }
+}
+
+//training
+#training-read-more-container {
+    padding-right: 0px;
+    width: 285px;
+}
+
+#training-icon {
+    color: #fff;
+    display: inline-block;
+    margin: 0px;
+    font-size: 18px;
+}
+
+#training-center-icon-background {
+    border-radius: 50%;
+    background-color: $web-design;
+    height: 60px;
+    width: 60px;
+    margin: auto;
+}
+
+#center-training-button {
+    background-color: $web-design;
+}
+
+.training-read-more:hover {
+    background-color: $web-design;
+    color: #fff;
+    #training-center-icon-background {
+        background-color: #fff;
+    }
+    #training-icon {
+        color: $web-design;
+    }
+    #center-training-button {
+        background-color: #fff;
+        color: $web-design;
+    }
+}
+
+//read more link styles
+.software-read-more,
+.it-read-more,
+.marketing-read-more,
+.telecom-read-more,
+.web-design-read-more,
+.security-read-more,
+.training-read-more {
+    display: block;
+    margin-top: 30px;
+    padding: 30px 30px 30px 30px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #000;
+}
+//read more link sizes
+.software-read-more,
+.it-read-more,
+.marketing-read-more {
+    width: 370px;
+    height: 313px;
+}
+
+.telecom-read-more,
+.web-design-read-more,
+.security-read-more,
+.training-read-more {
+    width: 270px;
+    height: 313px;
+}

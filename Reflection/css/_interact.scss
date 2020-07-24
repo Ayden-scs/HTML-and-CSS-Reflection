@@ -1,0 +1,216 @@
+//====================
+// Interact Fields
+//====================
+
+.interact-bar {
+    padding: 0 15px 0 15px;
+    width: 800px;
+    height: 70px;
+    display: flex;
+    justify-content: right;
+}
+
+.interact-buttons {
+    padding: 7px 0 7px 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-left: 50px;
+    position: relative;
+}
+
+// Support button
+.support-button {
+    cursor: pointer;
+    width: 143px;
+    height: 56px;
+    padding: 5px 15px 5px 15px;
+    background-color: $support-button;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.support-button:hover {
+    background-color: $support-button-hover;
+}
+
+#support-icon {
+    float: left;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+//Contact button
+.contact-button {
+    cursor: pointer;
+    width: 152px;
+    height: 56px;
+    padding: 5px 15px 5px 15px;
+    margin-left: 20px;
+    background-color: $contact-button;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 46px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.contact-button:hover {
+    background-color: $contact-button-hover;
+}
+
+#contact-icon {
+    float: left;
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+//Search bar
+.search-bar {
+    width: 240px;
+    height: 56px;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.search-button {
+    width: 63px;
+    height: 56px;
+    padding: 10px 20px 0px 20px;
+    cursor: pointer;
+    border: none;
+    background-color:$search-button;
+    border-radius: 0px 3px 3px 0px;
+    float: left;
+    text-decoration: none;
+}
+
+#search-icon {
+    color: #fff;
+    font-size: 23px;
+    position: relative;
+    display: inline-block;
+    top: -5px;
+}
+
+.search-button:hover {
+    background-color: $search-button-hover;
+}
+//phone icon 768px
+.phone-icon-header {
+    display: none;
+}
+.call {
+    cursor: pointer;
+    text-decoration: none;
+}
+// search bar 768px (hidden)
+.search-bar-hidden {
+    width: 100%;
+    height: 47px;
+    padding: 5px 0px 5px 15px;
+    background-color: rgba(0,0,0,.1);
+    border: 2px solid rgba(0,0,0,.1);
+    display: none;
+}
+
+.search-bar-small {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px 0 15px;
+    width: 100%;
+    margin-top: -8px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.search-button-hidden {
+    width: 46px;
+    margin-left: -46px;
+    border-left: transparent;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    cursor: pointer;
+}
+
+.search-icon-hidden {
+    font-size: 20px;
+    color: #000;
+    display: none;
+}
+
+//Menu Button
+.menu-button {
+    background-color: #333;
+    padding: 5px 15px 5px 15px;
+    width: 63px;
+    height: 56px;
+    border: 0px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.burger-menu {
+    width: 33px;
+    height: 19px;
+    top: -3px;
+    position: relative;
+}
+
+.burger-line {
+    width: 33px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    margin-top: -1.5px;
+    top: 9.5px;
+    bottom: 8px;
+}
+
+.burger-line::before {
+    content: '';
+    position: relative;
+    top: -8px;
+    display: block;
+    background-color: #fff;
+    width: 33px;
+    height: 3px;
+}
+
+.burger-line::after {
+    content: '';
+    position: relative;
+    top: 5px;
+    display: block;
+    background-color: #fff;
+    width: 33px;
+    height: 3px;
+}
+
+.menu-text {
+    position: relative;
+    display: block;
+    top: 15px;
+    font-size: 12px;
+    color: #fff;
+    line-height: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu-button:hover {
+    background-color: #000;
+}

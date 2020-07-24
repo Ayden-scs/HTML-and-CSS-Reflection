@@ -1,0 +1,432 @@
+//====================
+// Navigation Buttons
+//====================
+
+.nav-flex {
+    background-color: $nav-background;
+    height: 99px;
+}
+
+.nav-margin-padding {
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.nav-button {
+    display: block;
+    width: 195px;
+    height: 99px;
+    display: block;
+    border-right: 1px solid rgba(185, 185, 185, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, .2);
+}
+
+.nav-content {
+    border-right: 1px solid rgba(0, 0, 0, .2);
+    border-left: 1px solid rgba(185, 185, 185, 0.2);
+    padding: 0px;
+    margin: 0px;
+    height: 99px;
+    width: 1170px;
+}
+
+.nav-button-link {
+    width: 192.7px;
+    height: 99px;
+    border: none;
+    padding: 19px 0 18px 0;
+}
+
+.web-design,
+.it-support,
+.telecom,
+.software,
+.marketing,
+.security {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    color: #fff;
+    background-color: $nav-background;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+small {
+    font-size: 10px;
+    padding-bottom: 1px;
+    margin-bottom: -4px;
+    display: block;
+}
+
+.code-icon,
+.tv-icon,
+.phone-icon,
+.grid-icon,
+.signal-icon,
+.shield-icon{
+    font-size: 22px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.code-icon {
+    color: $web-design;
+}
+
+.tv-icon {
+    color: $support-button;
+}
+
+.phone-icon {
+    color: $telecom;
+}
+
+.grid-icon {
+    color: $software;
+}
+
+.signal-icon {
+    color: $marketing;
+}
+
+.shield-icon {
+    color: $security;
+}
+
+//navigation Sub menu
+.nav-sub-menu-container {
+    position: absolute;
+    left: 0;
+    width: 1807px;
+    height: 45px;
+    z-index: 2;
+    display: none;
+}
+
+.nav-sub-menu-margin {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 100%;
+    padding: 0 15px 0 15px;
+}
+
+.nav-sub-menu-content {
+    height: 100%;
+}
+
+#web-main-nav-button:hover,
+#it-main-nav-button:hover,
+#telecom-main-nav-button:hover,
+#software-main-nav-button:hover,
+#marketing-main-nav-button:hover,
+#security-main-nav-button:hover {
+    .nav-sub-menu-container{
+    display: inline-block;
+    }
+}
+
+//web design sub menu buttons
+.web-link-one {
+    height: 100%;
+    width: 183px;
+}
+
+.web-link-two {
+    width: 237px;
+}
+
+.web-link-three {
+    width: 155px;
+}
+
+.web-link-four {
+    width: 174px;
+}
+
+.web-link-five {
+    width: 183px;
+}
+
+.web-link-six {
+    width: 225px;
+}
+
+.web-link-two,
+.web-link-three,
+.web-link-four,
+.web-link-five,
+.web-link-six {
+    padding-left: 30px;
+    height: 100%;
+}
+
+#web-nav-sub-menu {
+    background-color: $web-design-hover;
+}
+
+#web-nav-button-link:hover {
+    background-color: $web-design-hover;
+    .code-icon {
+        color: #fff;
+    }
+}
+
+//it support sub menu 
+.it-link-one {
+    height: 100%;
+    width: 216px;
+}
+
+.it-link-two {
+    width: 239px;
+}
+
+.it-link-three {
+    width: 163px;
+}
+
+.it-link-four {
+    width: 191px;
+}
+
+.it-link-five {
+    width: 210px;
+}
+
+.it-link-six {
+    width: 144px;
+}
+
+.it-link-two,
+.it-link-three,
+.it-link-four,
+.it-link-five,
+.it-link-six {
+    padding-left: 30px;
+    height: 100%;
+}
+
+#it-nav-sub-menu {
+    background-color: $support-button-hover;
+}
+
+#it-nav-button-link:hover {
+    background-color: $support-button-hover;
+    .tv-icon {
+        color: #fff;
+    }
+}
+
+//telecom
+.telecom-link-one {
+    width: 188px;
+    height: 100%;
+}
+
+.telecom-link-two {
+    width: 178px;
+}
+
+.telecom-link-three {
+    width: 188px;
+}
+
+.telecom-link-four {
+    width: 251px;
+}
+
+.telecom-link-five {
+    width: 165px;
+}
+
+.telecom-link-six {
+    width: 140px;
+}
+
+.telecom-link-two,
+.telecom-link-three,
+.telecom-link-four,
+.telecom-link-five,
+.telecom-link-six {
+    height: 100%;
+    padding-left: 30px;
+}
+
+#telecom-nav-sub-menu {
+    background-color: $telecom;
+}
+
+#telecom-nav-button-link:hover {
+    background-color: $telecom;
+    .phone-icon {
+        color: #fff;
+    }
+}
+
+//software
+.software-link-one {
+    width: 228px;
+    height: 100%;
+}
+
+.software-link-two {
+    width: 179px;
+}
+
+.software-link-three {
+    width: 241px;
+}
+
+.software-link-four {
+    width: 270px;
+}
+
+.software-link-five {
+    width: 170px;
+}
+
+.software-link-six {
+    width: 58px;
+}
+
+.software-link-two,
+.software-link-three,
+.software-link-four,
+.software-link-five,
+.software-link-six {
+    height: 100%;
+    padding-left: 30px;
+}
+
+#software-nav-sub-menu {
+    background-color: $software;
+}
+
+#software-nav-button-link:hover {
+    background-color: $software;
+    .grid-icon {
+        color: #fff;
+    }
+}
+
+//marketing
+.marketing-link-one {
+    width: 74px;
+    height: 100%;
+}
+
+.marketing-link-two {
+    width: 104px;
+}
+
+.marketing-link-three {
+    width: 108px;
+}
+
+.marketing-link-four {
+    width: 118px;
+}
+
+.marketing-link-five {
+    width: 130px;
+}
+
+.marketing-link-six {
+    width: 104px;
+}
+
+.marketing-link-two,
+.marketing-link-three,
+.marketing-link-four,
+.marketing-link-five,
+.marketing-link-six {
+    height: 100%;
+    padding-left: 30px;
+}
+
+#marketing-nav-sub-menu {
+    background-color: $marketing-hover;
+}
+
+#marketing-nav-button-link:hover {
+    background-color: $marketing-hover;
+    .signal-icon {
+        color: #fff;
+    }
+}
+
+//Security
+.security-link-one {
+    width: 143px;
+    height: 100%;
+}
+
+.security-link-two {
+    width: 184px;
+}
+
+.security-link-three {
+    width: 246px;
+}
+
+.security-link-four {
+    width: 216px;
+}
+
+.security-link-five {
+    width: 136px;
+}
+
+.security-link-six {
+    width: 200px;
+}
+
+.security-link-two,
+.security-link-three,
+.security-link-four,
+.security-link-five,
+.security-link-six {
+    height: 100%;
+    padding-left: 30px;
+}
+
+#security-nav-sub-menu {
+    background-color: $security;
+}
+
+#security-nav-button-link:hover {
+    background-color: $security;
+    .shield-icon {
+        color: #fff;
+    }
+}
+
+.sub-menu-button-content {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sub-menu-line-a {
+    margin-left: 29px;
+}
+
+.sub-menu-line-b {
+    margin-left: 28px;
+}
+
+.sub-menu-line-c {
+    margin-left: 27px;
+}
+
+.sub-menu-line-d {
+    margin-left: 26px;
+}
+
+.sub-menu-line-e {
+    margin-left: 17px;
+}

@@ -1,0 +1,94 @@
+//====================
+// Client section
+//====================
+
+.client-container {
+    width: 100%;
+    height: 170px;
+    padding: 50px 0 50px 0;
+}
+
+.client-content-margin {
+    padding: 0 15px 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 100%;
+}
+
+.client-content {
+    width: 100%;
+    height: 100%;
+}
+
+.div-img-one {
+    width: 263px;
+    height: 100%;
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#busseys {
+    opacity: 0;
+}
+
+#busseys:hover {
+    opacity: 1;
+}
+
+.div-img-two {
+    width: 362px;
+    height: 100%;
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#crane {
+    opacity: 0;
+}
+
+#crane:hover {
+    opacity: 1;
+}
+
+.div-img-three {
+    width: 147px;
+    height: 100%;
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#beat {
+    opacity: 0;
+}
+
+#beat:hover {
+    opacity: 1;
+}
+
+.div-img-four {
+    width: 397px;
+    height: 100%;
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#northern-diver {
+    opacity: 0;
+}
+
+#northern-diver:hover {
+    opacity: 1;
+}

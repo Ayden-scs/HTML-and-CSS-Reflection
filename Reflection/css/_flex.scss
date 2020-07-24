@@ -1,0 +1,79 @@
+//====================
+// Felx Box Layouot
+//====================
+
+.page-content-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.header-flex,
+.nav-flex {
+    display: flex;
+}
+
+.support-button,
+.contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.banner-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.page-center-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.latest-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.client-content {
+    display: flex;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-button-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.credential-img {
+    display: flex;  
+    align-self: center;  
+}
+
+.nav-sub-menu-content {
+    display: flex;
+}
+
+.sub-menu-button-flex {
+    display: flex;
+    align-items: center;
+}

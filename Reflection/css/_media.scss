@@ -1,0 +1,718 @@
+//====================
+// Media Queries
+//====================
+
+//header media queries 
+@media (min-width: 992px) and (max-width: 1259px) {
+    .search-bar {
+        display: none;
+    }
+    .search-button {
+        margin-left: 20px;
+    }
+    .header-margin-padding {
+        width: 970px;
+    }
+    .netmatters-logo-img {
+        width: 374px;
+    }
+    .interact-buttons {
+        margin-left: 55px;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-margin-padding {
+        width: 750px;
+    }
+    .interact-buttons {
+        margin: 0px;
+    }
+    .search-bar {
+        width: 174px;
+    }
+    .interact-bar {
+        margin-left: 5px;
+    }
+    .netmatters-logo {
+        width: 375px;
+        height: 60px;
+    }
+    .netmatters-logo-img {
+        width: 345px;
+        height: 60px;
+    }
+    #netmatters-logo {
+        height: 100%;
+    }
+    .nav-container {
+        display: none;
+    }
+    .support-contact-hidden {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-margin-padding,
+    .header-flex {
+        height: 100%;
+    }
+    .search-bar,
+    .search-button {
+        display: none;
+    }
+    .interact-bar {
+        width: 130px;
+        height: 100%;
+    }
+    .netmatters-logo,
+    .netmatters-logo-img,
+    #netmatters-logo {
+        width: 100%;
+        height: auto;
+    }
+    #netmatters-logo {
+        max-width: 402px;
+    }
+    .netmatters-logo {
+        display: flex;
+        align-items: center;
+    }
+    .header-margin-padding {
+        width: 100%;
+    }
+    .interact-bar{
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .interact-buttons {
+        width: 83px;
+        height: 70px;
+    }
+    .phone-icon-header {
+        display: block;
+        color: #000;
+    }
+    .search-bar-hidden {
+        display: block;
+    }
+    .search-bar-small {
+        display: flex;
+    }
+    .search-icon-hidden {
+        display: block;
+    }
+}
+
+//Navigation bar
+@media (min-width: 992px) and (max-width: 1259px) {
+    .nav-button,
+    .nav-button-link {
+        width: 155.5px;
+    }
+    .nav-content {
+        justify-content: center;
+        width: 940px;
+        border-right: 1px solid rgba(185, 185, 185, 0.2);
+        border-left: none;
+    }
+    .nav-button {
+        border-left: 1px solid rgba(80, 80, 80, .5);
+    }
+    #web-main-nav-button {
+        width: 158px;
+    }
+}
+
+//banner section
+@media (min-width: 992px) and (max-width: 1259px) {
+    .banner-margin {
+        width: 970px;
+    }
+}
+
+@media (max-width: 991px) {
+    .banner-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-container {
+        height: 589px;
+        background-position: top;
+    }
+    .banner-content {
+        text-align: center;
+    }
+    .page-content-container {
+        height: 697px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-container {
+        height: 531px;
+    }
+    .page-content-container {
+        height: auto;
+    }
+}
+
+//Center page section
+@media (min-width: 992px) and (max-width: 1259px) {
+    .page-center-margin {
+        width: 970px;
+    }
+    .center-read-more-top {
+        width: 323px;
+        height: 387px;
+    }
+    #software-read-more-container,
+    #marketing-read-more-container {
+        width: 308px;
+    }
+    .software-read-more,
+    .it-read-more,
+    .marketing-read-more {
+        width: 100%;
+        height: 357px;
+    }
+    .center-read-more-bottom {
+        width: 485px;
+        height: 321px;
+    }
+    #telecom-read-more-container,
+    #web-design-read-more-container,
+    #security-read-more-container,
+    #training-read-more-container {
+        width: 470px;
+    }
+    .telecom-read-more,
+    .web-design-read-more,
+    .security-read-more,
+    .training-read-more {
+        width: 100%;
+        height: 291px;
+    }
+    #web-design-read-more-container,
+    #training-read-more-container {
+        padding-right: 0px;
+    }
+    #security-read-more-container {
+        padding-left: 0px;
+    }
+    .read-more-button-large-top {
+        margin-top: 50px;
+    }
+    .read-more-button-large-bottom {
+        margin-top: -30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .page-center-margin {
+        width: 750px;
+    }
+    .center-read-more-top {
+        width: 100%;
+        height: 291px;
+        margin-top: 30px;
+        padding: 0px;
+    }
+    #software-read-more-container,
+    #marketing-read-more-container {
+        width: 100%;
+        padding: 0px;
+    }
+    .software-read-more,
+    .it-read-more,
+    .marketing-read-more {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+    
+    #telecom-read-more-container,
+    #web-design-read-more-container,
+    #security-read-more-container,
+    #training-read-more-container {
+        width: 360px;
+        height: 313px;
+        margin-top: 30px;
+    }
+    #telecom-read-more-container,
+    #security-read-more-container{
+        padding: 0 15px 0 0;
+    }
+    #web-design-read-more-container,
+    #training-read-more-container {
+        padding: 0 0 0 15px;
+    }
+    .telecom-read-more,
+    .web-design-read-more,
+    .security-read-more,
+    .training-read-more {
+        width: 100%;
+        margin: 0px;
+        height: 100%;
+    }
+    #center-software-button,
+    #center-it-support-button,
+    #center-marketing-button {
+        margin-top: -30px;
+    }
+    .center-read-more-button {
+        margin-top: -10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .page-center-margin {
+        width: 100%;
+    }
+    .center-read-more-top {
+        height: 268px;
+    }
+    #telecom-read-more-container,
+    #web-design-read-more-container,
+    #security-read-more-container,
+    #training-read-more-container {
+        width: 100%;
+        height: 268px;
+        padding: 0px;
+    }
+    .center-read-more-button,
+    #center-software-button,
+    #center-it-support-button,
+    #center-marketing-button {
+        margin-top: -40px;
+    }
+}
+
+@media (max-width: 765px) {
+    .center-read-more-top,
+    #software-read-more-container,
+    #marketing-read-more-container,
+    #telecom-read-more-container,
+    #web-design-read-more-container,
+    #security-read-more-container,
+    #training-read-more-container {
+       height: auto;
+   }
+   .center-read-more-text {
+       height: auto;
+   }
+   .center-read-more-button,
+   #center-it-support-button,
+   #center-software-button,
+   #center-marketing-button {
+       margin-top: 0px;
+   }
+}
+
+//about us section
+@media (min-width: 992px) and (max-width: 1259px) {
+    .page-about-us-margin {
+        width: 970px;
+        height: 100%px;
+    }
+    .netmatters-background {
+        width: 100%;
+        height: 493px;
+    }
+    .about-us-text {
+        max-width: 100%;
+    }
+}
+@media (max-width: 991px) {
+    .page-about-us-margin {
+        width: 750px;
+        height: 100%;
+    }
+    .netmatters-background {
+        background-image: none;
+        height: 493px;
+    }
+    .about-us-text {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .page-about-us-margin {
+        width: 100%;
+    }
+}
+
+@media (max-width: 765px) {
+    .netmatters-background {
+        height: auto;
+    }
+}
+
+//latest section
+@media (min-width: 992px) and (max-width: 1259px) {
+    .latest-content-margin{
+        width: 970px;
+    }
+    .latest-content {
+        height: 633px;
+        width: 485px;
+        padding: 0 15px 0 15px;
+    }
+    .latest-img {
+        width: 455px;
+        overflow: hidden;
+    }
+    .latest-read-more {
+        height: 370px;
+    }
+    .latest-title-margin {
+        width:970px;
+    }
+    .latest-content-c {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .latest-content-margin {
+        width: 750px;
+        height: 670px;
+    }
+    .latest-title-margin {
+        width:750px;
+    }
+    .latest-content {
+        padding: 0px;
+        width: 345px;
+    }
+    .latest-content-a {
+        margin-left: 15px;
+        height: 569px;
+    }
+    .latest-content-b {
+        margin-left: 30px;
+    }
+    .latest-img-pic:hover {
+        transition: none;
+        scale: 1;
+        opacity: 1;
+    }
+    .latest-content-c {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .latest-title-margin {
+        width: 100%;
+    }
+    .latest-content-margin {
+        width: 100%;
+        height: 100%;
+    }
+    .latest-flex {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .latest-content {
+        margin: 0px;
+        width: 100%;
+        height: 750px;
+        padding: 0 15px 0 15px;
+        margin-bottom: 30px;
+    }
+    .latest-p-text {
+        margin: 0px;
+    }
+    .latest-read-more {
+        height: 324px;
+    }
+    .latest-content-c {
+        display: block;
+        margin: 0pc;
+    }
+}
+
+@media (max-width: 765px) {
+    .latest-content,
+    .latest-read-more,
+    .latest-p-text {
+        height: auto;
+    }
+
+}
+
+//client section
+@media (max-width: 1259px) {
+    .client-content-margin {
+        width: 970px;
+    }
+    .client-img-large {
+        width: 100%;
+        height: auto;
+        padding: 0 20px 0 20px;
+    }
+    .div-img-one {
+        width: 209px;
+        height: 63px;
+    }
+    .div-img-two {
+        width: 298px;
+        height: 63px;
+    }
+    .div-img-three {
+        width: 104px;
+        height: 63px;
+    }
+    .div-img-four {
+        width: 329px;
+        height: 63px;
+    }
+}
+
+@media (max-width: 991px) {
+    .client-container {
+        height: 145px;
+    }
+    .client-content-margin {
+        width: 750px;
+    }
+    .client-img-large {
+        width: 100%;
+        height: auto;
+        padding: 0 20px 0 20px;
+    }
+    .div-img-one,
+    .div-img-two, 
+    .div-img-three, 
+    .div-img-four{ 
+        height: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    .client-container {
+        display: none;
+    }
+}
+
+// footer section
+@media (min-width: 992px) and (max-width: 1259px) {
+    .footer-content-margin {
+        width: 970px;
+    }
+    .contact-us-container,
+    .about-footer-container,
+    .website-footer-container,
+    .social-media-footer-container,
+    .social-button-container {
+        width: 455px;
+    }
+    .website-footer-container,
+    .social-media-footer-container {
+        margin-top: 30px;
+    }
+    .website-footer-container {
+        padding-left: 0px;
+    }
+    .social-button-padding {
+        width: 212px;
+    }
+    #facebook,
+    #twitter {
+        width: 227px;
+    }
+}
+@media (max-width: 991px) {
+    .footer-content-margin {
+        width: 750px;
+    }
+    .contact-us-container,
+    .about-footer-container,
+    .website-footer-container,
+    .social-media-footer-container,
+    .social-button-container {
+        width: 360px;
+        height: 197px;
+    }
+    .website-footer-container,
+    .social-media-footer-container {
+        margin-top: 50px;
+    }
+    .website-footer-container {
+        padding-left: 0px;
+    }
+    .social-button-padding {
+        width: 157px;
+    }
+    #facebook,
+    #twitter {
+        width: 172px;
+    }
+    #linkedin {
+        margin-top: -50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-content-margin {
+        width: 100%;
+    }
+    .contact-us-container,
+    .about-footer-container,
+    .website-footer-container,
+    .social-media-footer-container,
+    .social-button-container {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+    .about-footer-container {
+        height: 220px;
+        padding: 0px;
+    }
+    .website-footer-container {
+        height: 109px;
+    }
+    .social-media-footer-container {
+        height: 190px;
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    .social-button-container {
+        height: 170px;
+        margin: 0px;
+    }
+    .social-button-padding {
+        width: 353px;
+    }
+    #facebook,
+    #twitter {
+       width: 368px;
+    }
+    #linkedin {
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 765px) {
+    .social-button-padding,
+    #facebook,
+    #twitter {
+        width: 50%;
+    }
+    #linkedin {
+        padding-right: 15px;
+    }
+}
+
+//credentials section
+@media (min-width: 992px) and (max-width: 1259px) {
+    .credentials-margin {
+        width: 970px;
+        height: 110px;
+        padding: 0 15px 0 15px;
+        margin-top: 50px;
+    }
+    .credential-one {
+        width: 285px;
+        height: 110px;
+    }
+    .credential-two {
+        width: 180px;
+        height: 110px;
+    }
+    .credential-three {
+        width: 109px;
+        height: 110px;
+    }
+    .credential-four {
+        width: 125px;
+        height: 110px;
+    }
+    .credential-five {
+        width: 240px;
+        height: 110px;
+    }
+    .credential-img {
+        height: auto;
+        width: 100%;
+        padding: 0 20px 0 20px;
+    }
+    .credential-img-one,
+    .credential-img-five {
+        margin-top: -20px;
+    }
+    .credential-img-four,
+    .credential-img-two {
+        margin-top: -15px;
+    }
+    .credential-img-two {
+        padding: 0px;
+    }
+    .credentials-container {
+        height: 160px;
+    }
+}
+
+@media (max-width: 991px) {
+    .credentials-margin {
+        width: 750px;
+        height: 188px;
+    }
+    .credential-one {
+        padding: 0px;
+        width: 245px;
+    }
+    .credential-two {
+        width: 127px;
+        height: 88px;
+    }
+    .credential-three {
+        width: 73px;
+        height: 88px;
+    }
+    .credential-four {
+        width: 86px;
+        height: 88px;
+    }
+    .credential-five {
+        width: 173px;
+        height: 110px;
+    }
+    .credential-img {
+        height: auto;
+        width: 100%;
+    }
+    .credential-img-one{
+        padding: 0 15px 0 15px;
+    }
+    .credential-img-three,
+    .credential-img-four,
+    .credential-img-five {
+        padding: 0 20px 0 20px;
+    }
+    .credential-img-two {
+        margin-top: -30px;
+   }
+   .credential-img-three,
+   .credential-img-four {
+       margin-top: -30px;
+   }
+   .credential-img-five {
+       margin-top: -60px;
+   }
+}
+
+@media (max-width: 767px) {
+    .credentials-container {
+        display: none;
+    }
+}
